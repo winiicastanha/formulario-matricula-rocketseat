@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 :root{
   /* Brand */
   --brand-light: #F67841;
@@ -35,4 +40,8 @@
   --heading4: 700 16px/120% var(--font-family);
   --text: 400 1rem/1.5 var(--font-family);
   --text-sm: 400 .875rem/1.4 var(--font-family);
+}
+
+body{
+  overflow: hidden;
 }
